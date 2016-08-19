@@ -6,7 +6,7 @@
 
     <groupId>de.bsvrz.pat</groupId>
     <artifactId>de.bsvrz.pat.onlprot</artifactId>
-    <version>3.8.0</version>
+    <version>3.9.1</version>
 
     <name>Online-Protokollierer</name>
     <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</description>
@@ -16,9 +16,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.build.timestamp.format>yyyy-MM-dd</maven.build.timestamp.format>
-        <kernsoftware.version>3.8.0</kernsoftware.version>
+        <kernsoftware.version>3.9.1</kernsoftware.version>
         <distributionspaket.status>FREI</distributionspaket.status>
-        <distributionspaket.standDatum>2016-05-31</distributionspaket.standDatum>
+        <distributionspaket.standDatum>2016-08-04</distributionspaket.standDatum>
         <distributionspaket.lizenz>GPLv3.0</distributionspaket.lizenz>
     </properties>
 
@@ -283,7 +283,8 @@
                                 de.bsvrz.pua,
                                 de.bsvrz.sys,
                                 de.bsvrz.vew,
-                                de.bsvrz.pat</excludeGroupIds>
+                                de.bsvrz.pat,
+                                de.kappich</excludeGroupIds>
                         </configuration>
                     </execution>
                     <execution>
@@ -306,7 +307,8 @@
                                 de.bsvrz.pua,
                                 de.bsvrz.sys,
                                 de.bsvrz.vew,
-                                de.bsvrz.pat</excludeGroupIds>
+                                de.bsvrz.pat,
+                                de.kappich</excludeGroupIds>
                         </configuration>
                     </execution>
                 </executions>
